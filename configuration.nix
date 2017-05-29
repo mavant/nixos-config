@@ -34,8 +34,6 @@
 
   # Select internationalisation properties.
   # i18n = {
-  #   consoleFont = "Lat2-Terminus16";
-  #   consoleKeyMap = "us";
   #   defaultLocale = "en_US.UTF-8";
   # };
 
@@ -46,20 +44,12 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
     ack
-    spotify
     arandr
     aspell
-    bashCompletion
     bash-completion
-    redshift
+    bashCompletion
     chkrootkit
     coreutils
-    cups
-    cups-bjnp
-    cups-filters
-    canon-cups-ufr2
-    gutenprint
-    #cups-gutenprint-binary
     dmenu
     dpkg
     dropbox
@@ -77,32 +67,36 @@
     gnupg
     google-chrome
     gzip
-    htop
-    haskellPackages.xmobar
     haskellPackages.ghc-mod
     haskellPackages.hoogle
+    haskellPackages.xmobar
+    htop
     i3lock
     keybase
     keychain
     maim
     mercurialFull
     mosh
+    mupdf
     nixui
     nix-zsh-completions
     opensc
     openvpn
+    pavucontrol
     pigz
     psmisc
+    redshift
     rsync
     skype
     slock
     slop
+    spotify
     stdenv
-    pavucontrol
     taskwarrior
     tmux
     tor
     tree
+    unrar
     vim
     wget
     which
