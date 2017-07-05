@@ -44,8 +44,10 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
     ack
+    acpid
     arandr
     aspell
+    bash
     bash-completion
     bashCompletion
     chkrootkit
@@ -69,6 +71,7 @@
     gzip
     haskellPackages.ghc-mod
     haskellPackages.hoogle
+    haskellPackages.idris
     haskellPackages.xmobar
     htop
     i3lock
@@ -83,13 +86,20 @@
     opensc
     openvpn
     pavucontrol
+    pcmanfm
+    pg_top
     pigz
+    platinum-searcher
+    postgresql
     psmisc
+    readline
     redshift
     rsync
+    silver-searcher
     skype
     slock
     slop
+    sox
     spotify
     stdenv
     taskwarrior
@@ -103,6 +113,8 @@
     xautoclick
     xautolock
     xcape
+    xfce.terminal
+    xfce.thunar
     xz
     zeal
     zip
