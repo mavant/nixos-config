@@ -134,6 +134,13 @@
   # networking.firewall.enable = false;
 
   services = {
+    acpid = {
+      enable = true;
+      lidEventCommands = "/home/matt/.xmonad/replace-xcape.sh";
+    };
+    #logind = {
+      #extraConfig = "HandleLidSwitch=lock";
+    #};
     printing = {
       enable = true;
       drivers = [
