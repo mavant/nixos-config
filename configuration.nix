@@ -83,11 +83,13 @@
     mupdf
     nixui
     nix-zsh-completions
+    opam
     opensc
     openvpn
     pavucontrol
     pcmanfm
     pg_top
+    pkgconfig
     pigz
     platinum-searcher
     postgresql
