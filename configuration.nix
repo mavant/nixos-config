@@ -87,6 +87,8 @@
     opensc
     openvpn
     pavucontrol
+    pcre
+    pcre2
     pcmanfm
     pg_top
     pkgconfig
