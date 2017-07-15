@@ -50,6 +50,7 @@
     bash
     bash-completion
     bashCompletion
+    bc
     chkrootkit
     coreutils
     dmenu
