@@ -55,7 +55,6 @@
     coreutils
     dmenu
     dpkg
-    dropbox
     dunst
     enpass
     entr
@@ -78,6 +77,7 @@
     i3lock
     keybase
     keychain
+    usbutils
     maim
     mercurialFull
     mosh
@@ -100,6 +100,7 @@
     readline
     redshift
     rsync
+    scrot
     silver-searcher
     skype
     slock
